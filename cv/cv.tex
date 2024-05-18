@@ -1,0 +1,131 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage[colorlinks=true, linkcolor=blue]{hyperref}
+\usepackage{xcolor}
+\usepackage{soul}
+% Customize section formatting
+\usepackage{titlesec}
+\usepackage{enumitem}
+
+
+
+\definecolor{customblue}{HTML}{31B6FD}
+
+\titleformat{\section}[hang]{\normalfont\large\bfseries}{\thesection}{1em}{}[\color{customblue}\rule{\linewidth}{1.5pt}]
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip}
+
+
+% Set the page geometry
+\geometry{left=0.5in, right=0.5in, top=1.25in, bottom=1in} % Increase top margin
+
+% Set up the fancyhdr package
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+
+% Define the header
+\fancyhead[L]{\includegraphics[height=1.5cm]{./assets/logo.png}} % Adjust height as needed
+\fancyhead[C]{\textbf{INSTITUTE FOR\\CO-OPERATIVE EDUCATION}} % Text in bold
+\renewcommand{\headrulewidth}{1pt} % Set the thickness of the header rule
+\renewcommand{\headrule}{\hbox to\headwidth{\color{customblue}\leaders\hrule height \headrulewidth\hfill}}
+
+% Ensure enough space for the header
+\setlength{\headheight}{2.5cm}
+\addtolength{\topmargin}{-1.5cm}
+
+
+% Start of document
+\begin{document}
+
+% 
+\begin{center} % Center the content
+    {\LARGE \textbf{FIRST NAME LAST NAME}} \\
+    \href{mailto:professionalemail@gmail.com}{professionalemail@gmail.com} $\mid$ 514.123.4567 \\
+    \href{https://www.linkedin.com/in/yourlinkedinprofile}{LinkedIn} $\mid$ \href{https://github.com/yourgithub}{GitHub}
+\end{center}
+
+\section*{SUMMARY OF SKILLS AND QUALIFICATIONS}
+\addcontentsline{toc}{section}{SUMMARY OF SKILLS AND QUALIFICATIONS}
+
+%\textbf{Operating Systems} \textbar{} Windows 365 $\cdot$ Linux $\cdot$ Unix $\cdot$ Mobile \\
+%\textbf{Applications} \textbar{} Word $\cdot$ Excel $\cdot$ PowerPoint $\cdot$ Access $\cdot$ Eclipse $\cdot$ Visio \\
+%\textbf{Programming} \textbar{} C++ $\cdot$ C$\#$ $\cdot$ Java $\cdot$ Ruby $\cdot$ Haskell (beginner) $\cdot$ PHP $\cdot$ HTML $\cdot$ CSS $\cdot$ MATLAB $\cdot$ Revit \\
+%\textbf{Platforms} \textbar{} Oracle Database $\cdot$ LiveCode $\cdot$ SAP NetWeaver $\cdot$ Java platforms \\
+%\textbf{Methodologies} \textbar{} Lean Engineering/Manufacturing $\cdot$ Six Sigma $\cdot$ DMAIC $\cdot$ Agile and Scrum $\cdot$ Project Management $\cdot$ Kaizen or Continuous Improvement $\cdot$ Change Management \\
+%\textbf{Other} \textbar{} AutoCAD $\cdot$ CATIA $\cdot$ SolidWorks $\cdot$ Visual Studio $\cdot$ GitHub $\cdot$ ETABS 3D Modelling \\
+%\textbf{Languages} \textbar{} French [Spoken \& Written - fluent] $\cdot$ English [Spoken \& Written - fluent] $\cdot$ Other \\
+%\textbf{Licenses \& Certifications} \textbar{} Valid driving permit $\cdot$ ASP-Construction – Health and Safety (2019) $\cdot$ CPR (valid until 2025)
+
+\begin{description}
+  \normalsize
+    \item[\textbf{Operating Systems} \textbar{}] Windows 365 $\cdot$ Linux $\cdot$ Unix $\cdot$ Mobile
+    \item[\textbf{Applications} \textbar{}] Word $\cdot$ Excel $\cdot$ PowerPoint $\cdot$ Access $\cdot$ Eclipse $\cdot$ Visio
+    \item[\textbf{Programming} \textbar{}] C++ $\cdot$ C$\#$ $\cdot$ Java $\cdot$ Ruby $\cdot$ Haskell (beginner) $\cdot$ PHP $\cdot$ HTML $\cdot$ CSS $\cdot$ MATLAB $\cdot$ Revit
+    \item[\textbf{Platforms} \textbar{}] Oracle Database $\cdot$ LiveCode $\cdot$ SAP NetWeaver $\cdot$ Java platforms
+    \item[\textbf{Methodologies} \textbar{}] Lean Engineering/Manufacturing $\cdot$ Six Sigma $\cdot$ DMAIC $\cdot$ Agile and Scrum $\cdot$ Project Management \linebreak $\cdot$ Kaizen or Continuous Improvement $\cdot$ Change Management
+    \item[\textbf{Other} \textbar{}] AutoCAD $\cdot$ CATIA $\cdot$ SolidWorks $\cdot$ Visual Studio $\cdot$ GitHub $\cdot$ ETABS 3D Modelling
+    \item[\textbf{Languages} \textbar{}] French [Spoken \& Written - fluent] $\cdot$ English [Spoken \& Written - fluent] $\cdot$ Other
+    \item[\textbf{Licenses \& Certifications} \textbar{}] Valid driving permit $\cdot$ ASP-Construction – Health and Safety (2019) $\cdot$ CPR (valid until 2025)
+\end{description}
+
+\section*{EDUCATION}
+
+\textbf{Bachelor of Engineering - Software Engineering Co-op  \hfill 2020 - 2024 (Expected)} \\
+Concordia University, Montreal, QC 
+\vspace{-0.5em}
+\begin{itemize}[noitemsep]
+  \item Member of the Institute of Co-operative Education
+  \item Relevant Courses: 
+  \item GPA: 
+\end{itemize}
+\textbf{DEC in Social Sciences\hfill 2019 }  \\
+Champlain College, Saint-Lambert, QC 
+\vspace{-0.5em}
+\begin{itemize}[noitemsep]
+  \item Honour Roll (2018)
+\end{itemize}
+
+
+\section*{PROJECTS}
+
+\textbf{Name of Project/Topic (Personal or Academic) \hfill 2024 - present } \\
+Concordia University, Montreal, QC
+\vspace{-0.5em}
+\begin{itemize}[noitemsep]
+  \item Include 2-3 bullet points to describe the projects goals, 
+    how many people were involved, what you did and the results/outcomes of the
+    project (use action verbs to give your experience more impact)
+  \item Think of class projects or assignments and projects done through 
+    associations, groups and competitions
+  \item Mention if your project s now being implemented or has 
+    received an award/recognition
+  \item Technical skill: highlight the technical knowledge used for the described project
+\end{itemize}
+\vspace{-0.5em}
+\textbf{Core Competencies:} critical thinking, problem assessment and analysis, adaptability
+
+\section*{EXTRA-CURRICULAR ACTIVITIES}
+
+\textbf{Position Title \hfill Sept 2019 - present} \\
+Name of the Team or Association/Committee, City, Province
+\vspace{-0.5em}
+\begin{itemize}[noitemsep]
+  \item Provide a brief description of your involvement in the activity
+\end{itemize}
+
+\pagebreak
+\section*{INTERESTS}
+\textbf{Experience Abroad} List interesting travels to showcase cultural learnings 
+and put the year in parentheses\\
+\textbf{Reading} You can st the genre of books, any industry-related books or other forms of
+reading material\\
+\textbf{sports} You can list your involvement in any sports or competitions and indicate the years
+of your participation in parentheses\\
+\textbf{Passions} You can mention your areas of passion to showcase a 
+bit of who are outside your educational and work-related experience
+
+
+
+
+\end{document}

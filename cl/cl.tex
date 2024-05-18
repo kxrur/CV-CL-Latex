@@ -1,0 +1,121 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage[colorlinks=true, linkcolor=blue]{hyperref}
+\usepackage{xcolor}
+\usepackage{soul}
+% Customize section formatting
+\usepackage{titlesec}
+\usepackage{enumitem}
+
+
+
+\definecolor{customblue}{HTML}{31B6FD}
+
+\titleformat{\section}[hang]{\normalfont\large\bfseries}{\thesection}{1em}{}[\color{customblue}\rule{\linewidth}{1.5pt}]
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip}
+
+
+% Set the page geometry
+\geometry{left=0.5in, right=0.5in, top=1.25in, bottom=1in} % Increase top margin
+
+% Set up the fancyhdr package
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+
+% Define the header
+\fancyhead[L]{\includegraphics[height=1.5cm]{./assets/logo.png}} % Adjust height as needed
+\fancyhead[C]{\textbf{INSTITUTE FOR\\CO-OPERATIVE EDUCATION}} % Text in bold
+\renewcommand{\headrulewidth}{1pt} % Set the thickness of the header rule
+\renewcommand{\headrule}{\hbox to\headwidth{\color{customblue}\leaders\hrule height \headrulewidth\hfill}}
+
+% Ensure enough space for the header
+\setlength{\headheight}{2.5cm}
+\addtolength{\topmargin}{-1.5cm}
+
+
+% Start of document
+\begin{document}
+
+% 
+\begin{center} % Center the content
+    {\LARGE \textbf{FIRST NAME LAST NAME}} \\
+    \href{mailto:professionalemail@gmail.com}{professionalemail@gmail.com} $\mid$ 514.123.4567 \\
+    \href{https://www.linkedin.com/in/yourlinkedinprofile}{LinkedIn} $\mid$ \href{https://github.com/yourgithub}{GitHub}
+\end{center}
+
+\noindent
+Date of application
+
+\vspace{1em}
+
+\noindent
+First Name Last Name of contact person \\
+\textit{(If you are sending this to HR include that person's name here)} \\
+Position/Title (e.g., Hiring Manager/Supervisor) \\
+Name of company/organization \\
+Company mailing address \\
+City, Province Postal Code
+
+\vspace{1em}
+
+\noindent
+\textbf{Subject: Name of Position (Reference Number, if provided) with Company} \\
+\textit{For example: Re: Java Software Developer with Ericsson Canada Inc. (Offer: 1234)}
+
+\vspace{1em}
+
+\noindent
+Dear [Ms. or Mr. Last Name], \\
+\textit{(Address this to the person you are responding to or the 
+person you will be reporting to. If you cannot find the name 
+address it “Dear Hiring Manager,” “Dear Hiring Committee” 
+“Dear Human Resource Manager”). Avoid using the generic term “To Whom it May Concern”)}
+
+\vspace{1em}
+
+\noindent
+Introduce what position you are responding to and 
+why you are interested. You can include your field of 
+study and what year you are in if you think this will add value. 
+You want to create a rapport and grab the reader’s attention for 
+them to want to read on. The first paragraph must grab the reader’s 
+attention and concisely show why you are interested and the right person for the position.
+
+\vspace{1em}
+
+\noindent
+This body tells the reader why they should select you over the 
+other qualified candidates. The goal is to make an explicit link 
+between what the employer is looking for and how you are going to help 
+them meet that need with the skills and qualities that you can bring 
+to the role/position/company. Talk about what you can do for the employer, 
+not what the employer can do for you. Select a few broad categories 
+that best match what the employer needs and wants. This paragraph should 
+be based on the position description in the posting, and how you will be 
+able to meet the requirements (backed-up with clear, concise, impactful examples). 
+You can add a few things like your willingness to travel, relocate, 
+any relevant training or course you are learning that would be important 
+for the employer to know.
+
+\vspace{1em}
+
+\noindent
+Your final paragraph should express your interest in the company 
+and thank the reader appropriately. \textbf{Wrap it up with a call to action.} 
+Inform the reader that you look forward to an interview to 
+further learn about the opportunity and to discuss your interest in the role.
+
+\vspace{1em}
+
+\noindent
+Sincerely,
+
+\vspace{1em}
+
+\noindent
+First Name Last Name
+
+
+\end{document}
